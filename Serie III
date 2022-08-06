@@ -1,0 +1,24 @@
+
+
+package com.mycompany.serie_3;
+
+import java.util.Scanner;
+
+public class Serie_3 {
+
+    public static void main(String[] args) {
+        
+        String nombre, apellido;
+        float DPI, Año_de_nacimiento;
+        Scanner nueva = new Scanner (System.in);
+        System.out.println("Bienvenido");
+        System.out.println("Ingrese su nombre: ");
+        nombre = nueva.nextLine();
+        System.out.println("Ingrese su apellido: ");
+        apellido = nueva.nextLine();
+        System.out.println("Ingrese su DPI");
+        DPI = nueva.nextFloat();
+        System.out.println("Ingrese su año de nacimiento: ");
+        Año_de_nacimiento = nueva.nextFloat(); 
+    }
+}
